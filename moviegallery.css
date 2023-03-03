@@ -1,0 +1,136 @@
+.row {
+    height: 1000px;
+    background-color: black;
+    position: relative;
+    top: 100px;
+
+}
+
+h1 {
+    color: rgb(252, 17, 0);
+    
+}
+
+.col {
+
+    
+  width: 200px;
+  /* height: 650px; */
+    background-color: black;
+    border: 3px yellow solid;
+    position: absolute;
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+    
+
+
+
+
+}
+.col-1
+{
+    left: 30px;
+
+}
+.col-2
+{
+    left: 305px;
+}
+.col-3
+{
+    left:580px;
+}
+.col-4
+{
+    left: 855px;
+}
+.col-5
+{
+    left: 1130px;
+}
+.a
+{
+    border-radius: 10px;
+}
+.b {
+    height: 300px;
+    width: 200px;
+
+    background-image: url("images/bear.jpg");
+    background-size: cover;
+
+
+}
+
+.c {
+    height: 300px;
+    width: 200px;
+
+    background-image: url("images/last of us.jpg");
+    background-size: cover;
+
+}
+
+.e {
+    height: 300px;
+    width: 200px;
+
+    background-image: url("images/antman.jpg");
+    background-size: cover;
+
+}
+
+.f {
+    height: 300px;
+    width: 200px;
+
+    background-image: url("images/whale.jpg");
+    background-size: cover;
+
+}
+
+.g {
+    height: 300px;
+    width: 200px;
+
+    background-image: url("images/poker face.jpg");
+    background-size: cover;
+
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+}
+.e1
+{
+    text-align:center;
+    
+    background-color: yellow;
+    width: 100px;
+    position: absolute;
+    left:80px;
+    bottom: 10px;
+    color: red;
+    border: red 3px solid;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+.stick
+{
+    position: sticky;
+    background-color:yellow;
+    top: 0px;
+    text-align: center;
+    color:red;
+    z-index: 1;
+}
+.stick2
+{
+    position: sticky;
+    background-color: yellow;
+    bottom: 0px;
+    text-align: center;
+    color: red;
+}
